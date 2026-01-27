@@ -14,8 +14,8 @@ function App() {
   return(
     <div>
         <Alert>
-            Hello world
-            <Alert/>
+          Hello <span>World</span>  
+        </Alert>
     </div>
   );
 }

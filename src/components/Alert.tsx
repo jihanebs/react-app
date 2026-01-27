@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 interface Props {
-    children: string;
+    children: ReactNode;
 }
 const Alert = ({children}: Props) => {
   return (
